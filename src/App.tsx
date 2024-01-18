@@ -1,13 +1,13 @@
 import './styles/App.scss'
 import Navbar from './layouts/Navbar'
-import Welcome from './sections/Welcome'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Welcome />
+      <Home />
     </>
   )
 }
