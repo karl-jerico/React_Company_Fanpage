@@ -10,7 +10,6 @@
   }
 
   &__item {
-    color: $black;
-    @apply mx-4 text-xl;
+    @apply mx-4 text-xl text-black;
   }
 }
