@@ -1,23 +1,20 @@
 .welcome {
-  @apply flex-center md:flex-row flex-col gap-2 relative max-w-[1440px] mx-auto;
+  @apply flex-center md:flex-row flex-col gap-2 relative max-w-[1440px] mx-auto pt-24;
 
   &__left {
     @apply flex-1 padding-x;
   }
 
   &__title {
-    color: $orange;
-    @apply text-[20px] font-bold mt-5;
+    @apply text-[20px] text-orange font-bold mt-5;
   }
 
   &__desc {
-    color: $darkblue;
-    @apply 2xl:text-[72px] sm:text-[50px] text-[50px] font-extrabold;
+    @apply 2xl:text-[72px] sm:text-[50px] text-[50px] text-darkblue font-extrabold;
   }
 
   &__subtitle {
-    color: $gray;
-    @apply text-[14px] font-light;
+    @apply text-[14px] font-light text-gray;
   }
 
   &__img-container {
