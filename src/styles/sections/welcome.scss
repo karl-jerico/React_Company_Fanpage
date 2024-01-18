@@ -1,5 +1,5 @@
 .welcome {
-  @apply flex-center md:flex-row flex-col gap-2 relative max-w-[1440px] mx-auto pt-24;
+  @apply flex-center md:flex-row flex-col gap-2 relative;
 
   &__left {
     @apply flex-1 padding-x;
