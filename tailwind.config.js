@@ -7,4 +7,11 @@ export default {
     "./styles/**/*.{ts,tsx,scss}",
     "./layouts/**/*.{ts,tsx}"
   ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "welcome-bg": "url('/src/assets/hero-bg.png')",
+      },
+    }
+  }
 }
