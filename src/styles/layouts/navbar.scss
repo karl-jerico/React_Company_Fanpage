@@ -1,5 +1,5 @@
 .navbar {
-  @apply max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4;
+  @apply max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 z-10;
 
   &__img {
     @apply object-contain;
@@ -10,7 +10,6 @@
   }
 
   &__item {
-    font-family: "Poppins", sans-serif;
     color: $black;
     @apply mx-4 text-xl;
   }
