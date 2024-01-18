@@ -1,6 +1,6 @@
 import './styles/App.scss'
 import Navbar from './layouts/Navbar'
-import Welcome from './sections/welcome'
+import Welcome from './sections/Welcome'
 
 function App() {
 
