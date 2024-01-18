@@ -1,10 +1,4 @@
-import { MouseEventHandler } from "react";
-
-interface CustomButtonProps {
-  title: string;
-  buttonStyle?: string;
-  handleClick?: MouseEventHandler<HTMLButtonElement>;
-}
+import { CustomButtonProps } from "../types";
 
 const CustomButton = ({ title, buttonStyle, handleClick }: CustomButtonProps) => (
     <button className={`custom-btn ${buttonStyle}`} onClick={handleClick}>
