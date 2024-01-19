@@ -1,0 +1,7 @@
+.s-leaders {
+    @apply flex-center flex-col mx-auto max-w-[1440px] min-h-screen;
+}
+
+.leader {
+    @apply flex-center flex-row gap-8 mx-auto flex-wrap
+}
