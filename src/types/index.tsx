@@ -13,3 +13,8 @@ export interface LeaderCardProps {
     image: string;
 }
 
+export interface TeamProps {
+  id: number;
+  name: string;
+  image: string;
+}

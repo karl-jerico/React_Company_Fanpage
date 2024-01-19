@@ -1,0 +1,7 @@
+.s-teams {
+    @apply flex justify-start flex-col mx-auto max-w-[1440px] min-h-screen;
+}
+
+.team {
+    @apply  flex-row gap-8 mx-auto flex-wrap 
+}
