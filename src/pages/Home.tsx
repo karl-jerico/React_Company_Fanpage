@@ -1,4 +1,5 @@
 import Leaders from "../sections/Leaders"
+import Teams from "../sections/Teams"
 import Welcome from "../sections/Welcome"
 
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="p-home">
         <Welcome />
         <Leaders />
+        <Teams />
     </div>
   )
 }

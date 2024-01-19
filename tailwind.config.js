@@ -15,8 +15,8 @@ export default {
         "darkblue": "#181E4B",
         "light-orange": "#F1A501",
         "gray": "#5E6282",
-
       }
     }
-  }
-}
+  },
+  plugins: [require("daisyui")]
+};
