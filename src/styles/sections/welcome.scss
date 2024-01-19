@@ -10,7 +10,7 @@
   }
 
   &__desc {
-    @apply 2xl:text-[72px] sm:text-[50px] text-[50px] text-darkblue font-extrabold;
+    @apply 2xl:text-[72px] md:text-[60px] text-[50px] text-darkblue font-extrabold;
   }
 
   &__subtitle {
@@ -29,3 +29,4 @@
     @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-welcome-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
   }
 }
+ 

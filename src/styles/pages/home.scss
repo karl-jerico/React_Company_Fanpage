@@ -1,4 +1,3 @@
 .p-home {
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-    @apply max-w-[1440px] mx-auto pt-24
+    @apply max-w-[1440px] mx-auto inset-0 top-24 relative;
 }

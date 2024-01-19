@@ -1,34 +1,50 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
-ul li a{    
-    text-decoration: none;
+ul li a {
+  text-decoration: none;
 }
 
 /* START: General styles */
 .max-width {
-    @apply max-w-[1440px] mx-auto;
+  @apply max-w-[1440px] mx-auto;
+}
+
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply py-4;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.section {
+  @apply flex-center flex-col gap-2 relative my-10;
+
+  &__title {
+    @apply text-lg font-bold text-gray
   }
-  
-  .padding-x {
-    @apply sm:px-16 px-6;
+
+  &__desc {
+    @apply text-5xl font-extrabold text-black
   }
-  
-  .padding-y {
-    @apply py-4;
-  }
-  
-  .flex-center {
-    @apply flex items-center justify-center;
-  }
-  
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
+}
