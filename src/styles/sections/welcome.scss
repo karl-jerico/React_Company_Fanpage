@@ -1,5 +1,5 @@
 .welcome {
-  @apply flex-center md:flex-row flex-col gap-2 ;
+  @apply flex-center md:flex-row flex-col gap-2 min-h-screen;
 
   &__left {
     @apply flex-1 padding-x;
@@ -22,7 +22,7 @@
   }
 
   &__img {
-    @apply relative md:w-full w-[90%] md:h-full z-0;
+    @apply relative md:w-full w-full md:h-full z-0;
   }
 
   &__image-overlay {

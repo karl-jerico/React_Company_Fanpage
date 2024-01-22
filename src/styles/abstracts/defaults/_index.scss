@@ -38,7 +38,7 @@ ul li a {
 }
 
 .section {
-  @apply flex-center flex-col gap-2 relative my-10;
+  @apply flex-center flex-col gap-2 relative my-8 text-center;
 
   &__title {
     @apply text-lg font-bold text-gray
