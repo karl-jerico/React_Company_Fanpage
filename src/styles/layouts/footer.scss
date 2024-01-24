@@ -1,0 +1,36 @@
+.footer1 {
+  @apply flex flex-col text-black max-w-[1440px] mx-auto px-4;
+
+  &__links-container {
+    @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+  }
+
+  &__links {
+    @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+  }
+
+  &__company {
+    @apply flex flex-col justify-start items-start gap-6;
+
+    .company-logo {
+      @apply object-contain h-16 w-28;
+    }
+    .company-name {
+      @apply text-base text-gray;
+    }
+  }
+
+  &__link {
+    @apply flex flex-col gap-6 text-base min-w-[80px];
+
+    .link-title {
+      @apply font-[1000];
+    }
+
+    .link-item {
+      @apply flex flex-col gap-5 text-gray;
+    }
+  }
+}
+
+
