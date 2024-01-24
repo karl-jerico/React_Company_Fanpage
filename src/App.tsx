@@ -1,6 +1,7 @@
 import './styles/App.scss'
 import Navbar from './layouts/Navbar'
 import Home from './pages/Home'
+import Footer from './layouts/Footer'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Footer />
     </>
   )
 }
