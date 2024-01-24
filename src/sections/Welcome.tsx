@@ -15,7 +15,7 @@ const Welcome = () => {
         </p>
         <CustomButton
           title="Find out more"
-          buttonStyle="rounded-full bg-orange text-cream mt-10"
+          buttonStyle="rounded-full bg-yellow-gradient text-cream mt-10"
           handleClick={handleScroll}
         />
       </div>
