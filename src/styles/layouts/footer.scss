@@ -1,8 +1,8 @@
 .footer1 {
-  @apply flex flex-col text-black max-w-[1440px] mx-auto px-4;
+  @apply flex flex-col text-black max-w-[1440px] mx-auto pb-20 mt-36;
 
   &__links-container {
-    @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+    @apply flex max-md:flex-col flex-wrap justify-between gap-5 px-8;
   }
 
   &__links {
@@ -13,7 +13,7 @@
     @apply flex flex-col justify-start items-start gap-6;
 
     .company-logo {
-      @apply object-contain h-16 w-28;
+      @apply object-contain h-16 w-28 right-2 relative;
     }
     .company-name {
       @apply text-base text-gray;

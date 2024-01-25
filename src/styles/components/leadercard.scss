@@ -1,5 +1,5 @@
 .leader-card {
-  @apply p-6 rounded-lg w-full lg:w-72  h-[400px] mx-auto;
+  @apply pt-6 px-6 rounded-lg w-full lg:w-72  h-[400px] mx-auto;
 
   &__image {
     @apply w-full h-40 object-cover rounded-md mb-4;

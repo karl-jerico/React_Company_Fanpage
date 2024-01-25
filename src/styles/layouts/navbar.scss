@@ -1,5 +1,10 @@
 .navbar {
-  @apply max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 z-10;
+  @apply max-w-[1440px] mx-auto flex justify-between items-center px-5 py-4 z-10;
+
+  @screen sm {
+    @apply px-16
+  }
+  
 
   &__img {
     @apply object-contain;
@@ -7,9 +12,14 @@
 
   &__list {
     @apply flex justify-center items-center;
-  }
 
+  }
+  
   &__item {
-    @apply mx-4 text-xl text-black;
+    @apply hidden mx-4 text-xl text-black;
+
+    @screen md {
+      @apply block
+    }
   }
 }

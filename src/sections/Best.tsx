@@ -8,7 +8,6 @@ const Best = () => {
   return (
     <section className="s-best">
       <div className="best">
-
         <div>
           <p className="section__title">Best Employee</p>
           <h2 className="section__desc">Employee of the CENTURY</h2>
