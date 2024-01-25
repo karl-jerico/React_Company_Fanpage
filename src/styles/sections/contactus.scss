@@ -1,8 +1,8 @@
 .s-contact-us {
-  @apply flex-center flex-col mx-4 max-w-[1440px] flex-wrap pb-20 px-2;
+  @apply flex-center flex-col mx-4 max-w-[1440px] flex-wrap px-4;
 
   .clients {
-    @apply flex-center flex-row flex-wrap mb-8;
+    @apply flex-center flex-row flex-wrap mb-20;
 
     &__Img {
       @apply object-cover w-1/5 min-w-[8rem] p-1 rounded;
@@ -11,23 +11,35 @@
 
   .contact-us {
     border-radius: 100px 10px 10px 10px;
-    @apply flex-center flex-col bg-pink-gradient object-cover w-full h-72 relative;
+    @apply flex-center flex-col bg-pink-gradient object-cover w-full h-80 relative;
 
     &__desc {
-        @apply text-3xl text-center text-gray font-bold px-20 pb-8 resize;
+      @apply text-sm text-center text-gray font-bold px-10 pt-10;
+
+      @screen sm {
+        @apply text-xl; 
+      }
+
+      @screen md {
+        @apply text-3xl;
+      }
     }
 
-    &__form{
-        @apply flex-center flex-row flex-wrap gap-4 resize-x;
+    &__form {
+      @apply flex-center flex-row flex-wrap gap-4 py-8;
     }
 
     &__input {
-      @apply bg-white rounded-md py-3 px-6 min-w-14 min-h-6;
+      @apply bg-white rounded-md py-3 px-6 mx-4 w-full min-h-6;
+
+      @screen md {
+        @apply w-auto;
+      }
     }
 
     &__circle {
       @apply rounded-full bg-violet-gradient flex-center p-2 absolute top-[-20px] right-[-20px];
-    
+
       img {
         @apply h-10 w-10;
       }

@@ -10,8 +10,8 @@ const Teams = () => {
         <p className="section__title">TEAMS</p>
         <h2 className="section__desc">Group with the Greatest mind</h2>
       </div>
-      <div className="team">
-        <div className="h-96 carousel carousel-vertical rounded-box">
+      <div className="teams">
+        <div className="team">
           {teams.map((team) => (
             <div key={team.id} className="carousel-item h-full">
               <img src={team.image} alt={team.name} />

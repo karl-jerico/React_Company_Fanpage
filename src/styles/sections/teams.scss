@@ -1,7 +1,19 @@
 .s-teams {
-    @apply flex justify-start flex-col mx-auto max-w-[1440px] mb-12;
-}
+  @apply flex justify-start flex-col mx-auto px-5 pb-14;
 
-.team {
-    @apply  flex-row gap-8 mx-auto flex-wrap 
+  .teams {
+    @apply flex-center;
+
+    .team {
+      @apply carousel carousel-vertical rounded-box h-52;
+
+      @screen sm {
+        @apply h-80
+      }
+
+      @screen md {
+        @apply h-96
+      }
+    }
+  }
 }

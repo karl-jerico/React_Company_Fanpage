@@ -12,6 +12,8 @@ const Navbar = () => {
           <li className="navbar__item">Home</li>
           <li className="navbar__item">Leader</li>
           <li className="navbar__item">Teams</li>
+          <li className="navbar__item">Best</li>
+          <li className="navbar__item">Clients</li>
         </ul>
       </nav>
     </header>

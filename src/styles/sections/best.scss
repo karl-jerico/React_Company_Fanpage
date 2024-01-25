@@ -1,5 +1,5 @@
 .s-best {
-  @apply hero min-h-screen flex-wrap;
+  @apply hero min-h-screen flex-wrap px-2;
 
   .best {
     @apply hero-content flex-col lg:flex-row lg:gap-24;
@@ -8,7 +8,6 @@
         @apply card card-compact w-full sm:w-80 bg-base-100 shadow-xl;
       }
       
-
     &__desc {
       @apply text-5xl font-extrabold text-black;
     }
@@ -29,8 +28,4 @@
       }
     }
   }
-}
-
-.best {
-  @apply flex flex-row flex-wrap;
 }
