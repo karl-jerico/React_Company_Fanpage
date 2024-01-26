@@ -7,14 +7,21 @@ export interface CustomButtonProps {
 }
 
 export interface LeaderCardProps {
-    id: number;
-    name: string;
-    description: string;
-    image: string;
+  id: number;
+  name: string;
+  description: string;
+  image: string;
 }
 
 export interface TeamProps {
   id: number;
   name: string;
   image: string;
+}
+
+export interface MembersProps {
+  name: string;
+  detail: string;
+  status: string;
+  age: number;
 }
