@@ -6,7 +6,7 @@
   }
   
   &__left {
-    @apply flex-1 padding-x border-transparent bg-transparent z-20;
+    @apply flex-1 padding-x border-transparent z-20;
   }
   
   &__title {
@@ -14,7 +14,11 @@
   }
   
   &__desc {
-    @apply 2xl:text-[72px] md:text-[60px] text-[50px] text-darkblue font-extrabold;
+    @apply text-[50px] text-darkblue font-extrabold;
+
+    @screen lg {
+      @apply text-[70px]
+    }
   }
   
   &__subtitle {
