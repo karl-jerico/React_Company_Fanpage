@@ -27,7 +27,7 @@ const Members = () => {
         <tbody>
           {members.map((member, index) => (
             <tr key={index} className="s-members__table__row">
-              <td className="s-members__table__data">{member.name}</td>
+              <td className="s-members__table__data"><img src={member.img} alt={member.alt} className="avatar"/><br/>{member.name}</td>
               <td className="s-members__table__data">{member.detail}</td>
               <td className="s-members__table__data">{member.status}</td>
               <td className="s-members__table__data">{member.age}</td>

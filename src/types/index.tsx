@@ -24,4 +24,6 @@ export interface MembersProps {
   detail: string;
   status: string;
   age: number;
+  img: string;
+  alt: string;
 }
