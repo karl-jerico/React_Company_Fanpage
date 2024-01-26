@@ -1,7 +1,15 @@
 .s-leaders {
-    @apply flex-center flex-col mx-auto max-w-[1440px] pb-10;
+    @apply flex-center flex-col mx-auto max-w-[1440px] pb-10 relative;
+
+    &__leader {
+        @apply flex-center flex-row gap-8 mx-auto flex-wrap z-30;
+    }
+
+    &__bg {
+        @apply absolute h-[10rem] w-auto right-[12rem] bottom-[5rem]
+
+        
+    }
+
 }
 
-.leader {
-    @apply flex-center flex-row gap-8 mx-auto flex-wrap
-}

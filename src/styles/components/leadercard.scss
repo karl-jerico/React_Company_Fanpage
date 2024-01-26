@@ -1,12 +1,12 @@
 .leader-card {
-  @apply pt-6 px-6 rounded-lg w-full lg:w-72  h-[400px] mx-auto;
+  @apply rounded-lg w-full lg:w-72  h-[400px] mx-5 shadow-xl z-10 bg-white;
 
   &__image {
-    @apply w-full h-40 object-cover rounded-md mb-4;
+    @apply w-full h-40 object-cover rounded-t-md mb-4;
   }
 
   &__name {
-    @apply text-2xl font-bold mb-2 text-center
+    @apply text-2xl font-bold mb-2 text-center text-black;
   }
 
   &__description {
