@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "welcome-bg": "url('/src/assets/hero-bg.png')",
+        "welcome-bg": "url('/src/assets/welcome-bg.png')",
+        "blob": "url('/src/assets/blob-haikei.svg')",
         "yellow-gradient":
           "linear-gradient(109.6deg, rgb(255, 207, 84) 11.2%, rgb(255, 158, 27) 91.1%)",
         "orange-gradient": "linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%)",
@@ -19,6 +20,7 @@ export default {
         "light-orange": "#F1A501",
         "gray": "#5E6282",
         "penk": "#DFD7F9",
+        "penk1": "#D5AEE4"
       },
     },
   },
