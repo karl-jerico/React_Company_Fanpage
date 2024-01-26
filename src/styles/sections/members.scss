@@ -1,0 +1,54 @@
+.s-members {
+  @apply relative overflow-hidden mx-auto px-5;
+
+  &__table {
+    @apply relative mx-auto mb-6 w-full;
+
+    @screen md {
+      @apply mx-auto mb-12 w-[75%];
+    }
+
+    &__header {
+      @apply rounded-t-lg px-4 pb-0 text-center text-sm;
+      height: 30px;
+      border-radius: 35px 35px 0 0;
+      background-color: #16a4fc;
+      color: white;
+
+      @screen md {
+        @apply text-2xl;
+        height: 60px;
+      }
+    }
+
+    &__footer {
+      @apply rounded-bl-lg rounded-br-lg p-4 text-center font-normal text-[0.6rem];
+      height: 30px;
+      border-radius: 0 0 35px 35px;
+      color: black;
+      background-color: #eeedec;
+      padding: 0.4rem;
+
+      @screen md {
+        @apply text-[0.9rem];
+        height: 60px;
+      }
+    }
+
+    &__row {
+      @apply text-center;
+    }
+
+    &__title,
+    &__data {
+      @apply w-1/4 p-4 text-[.8rem] text-black;
+
+      @screen md {
+        @apply text-base;
+      }
+    }
+    &__title {
+      @apply font-black;
+    }
+  }
+}
