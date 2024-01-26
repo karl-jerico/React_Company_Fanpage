@@ -43,10 +43,14 @@ ul li a {
   @apply flex-center flex-col gap-2 relative my-8 text-center;
 
   &__title {
-    @apply text-lg font-bold text-gray
+    @apply text-lg font-bold text-gray;
   }
 
   &__desc {
-    @apply text-5xl font-extrabold text-black
+    @apply text-3xl font-extrabold text-black;
+
+    @screen md {
+      @apply text-5xl
+    }
   }
 }
