@@ -30,7 +30,7 @@
   }
 
   &__img {
-    @apply bg-black;
+    @apply bg-black z-10;
     width: 40rem;
     height: 30rem;
     background-size: cover;
