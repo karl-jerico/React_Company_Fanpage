@@ -1,5 +1,5 @@
 .welcome {
-  @apply flex-center flex-row flex-wrap gap-2 min-h-[90vh] overflow-hidden;
+  @apply flex-center flex-row flex-wrap gap-2 min-h-[90vh] overflow-hidden z-0;
 
   @screen md {
     @apply min-h-screen;

@@ -5,7 +5,7 @@ const Members = () => {
   const members: MembersProps[] = memberss();
 
   return (
-    <section className="s-members">
+    <section className="s-members" id="members">
       <div className="section">
         <p className="section__title">MEMBERS</p>
         <h2 className="section__desc">Wonderful People</h2>

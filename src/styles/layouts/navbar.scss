@@ -1,25 +1,75 @@
-.navbar {
-  @apply max-w-[1440px] mx-auto flex justify-between items-center px-5 py-4 z-10;
+.l-header {
+  @apply w-full absolute z-50;
 
-  @screen sm {
-    @apply px-16
-  }
-  
-
-  &__img {
-    @apply object-contain;
+  .bg-blur {
+    background: rgba(223, 215, 249, 0.03);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: 0.2s ease-in-out;
   }
 
-  &__list {
-    @apply flex justify-center items-center;
+  &__navbar {
+    @apply max-w-[1440px] mx-auto flex justify-between items-center px-5 py-4 top-0 left-0 right-0 fixed;
 
+    @screen sm {
+      @apply px-16;
+    }
+
+    &__img {
+      @apply object-contain;
+    }
+
+    &__list {
+      @apply flex justify-center items-center;
+    }
+
+    &__item {
+      @apply hidden mx-4 text-xl text-black;
+
+      @screen md {
+        @apply block;
+      }
+
+      &:hover {
+        @apply text-orange cursor-pointer;
+      }
+    }
+
+    .hamburger {
+      @apply block text-black text-3xl font-extrabold;
+
+      @screen md {
+        @apply hidden;
+      }
+    }
   }
-  
-  &__item {
-    @apply hidden mx-4 text-xl text-black;
 
-    @screen md {
-      @apply block
+  &__sidebar {
+    @apply lg:hidden fixed inset-0 w-full;
+    background: rgba(223, 215, 249, 0.03);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: background 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out;
+
+    &__container {
+      @apply inset-y-0 left-0 w-64 overflow-y-auto z-50 bg-black h-full;
+      transition: left 0.9s ease-in-out;
+
+      &__header {
+        @apply flex justify-between items-center p-4;
+
+        &__cross {
+          @apply text-white text-3xl;
+        }
+      }
+
+      &__items {
+        @apply flex flex-col px-4 py-2;
+
+        &__link {
+          @apply text-white hover:text-orange block px-4 py-2;
+        }
+      }
     }
   }
 }
