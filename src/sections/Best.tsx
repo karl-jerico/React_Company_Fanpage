@@ -6,7 +6,7 @@ import medal_3 from "../assets/3.svg";
 
 const Best = () => {
   return (
-    <section className="s-best">
+    <section className="s-best" id="best">
       <div className="best">
         <div>
           <p className="section__title">Best Employee</p>

@@ -5,7 +5,7 @@ import { TeamProps } from "../types";
 const Teams = () => {
     const teams: TeamProps [] = all_teams()
   return (
-    <section className="s-teams">
+    <section className="s-teams" id="teams">
       <div className="section">
         <p className="section__title">TEAMS</p>
         <h2 className="section__desc">Group with the Greatest mind</h2>

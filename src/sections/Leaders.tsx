@@ -7,7 +7,7 @@ const Leaders = () => {
   const leaders = all_Leaders();
 
   return (
-    <section className="s-leaders">
+    <section className="s-leaders" id="leaders">
       <img src={spiral_bg} alt="spiral_bg" className="s-leaders__bg"/>
       <div className="section">
         <p className="section__title">LEADERS</p>

@@ -5,7 +5,7 @@ const Welcome = () => {
   const handleScroll = () => {};
 
   return (
-    <section className="welcome">
+    <section className="welcome" id="welcome">
       <div className="bg-round" />
       <div className="bg-round2" />
       {/* <img src={blob} alt="" className="welcome__image-overlay " /> */}

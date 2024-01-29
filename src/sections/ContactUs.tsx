@@ -10,7 +10,7 @@ const ContactUs = () => {
   const handleClick = () => {};
 
   return (
-    <section className="s-contact-us">
+    <section className="s-contact-us" id="clients">
       <div className="section">
         <h2 className="section__desc">Clients</h2>
         <p className="text-center text-md text-gray mt-8">
