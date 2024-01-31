@@ -66,6 +66,7 @@ const Navbar = () => {
             to="leaders"
             smooth={true}
             duration={500}
+            offset={-80}
             spy={true}
             activeClass="active"
             className="l-header__navbar__item"
@@ -76,6 +77,7 @@ const Navbar = () => {
             to="teams"
             smooth={true}
             duration={500}
+            offset={-80}
             spy={true}
             activeClass="active"
             className="l-header__navbar__item"
@@ -96,6 +98,7 @@ const Navbar = () => {
             to="clients"
             smooth={true}
             duration={500}
+            offset={-100}
             spy={true}
             activeClass="active"
             className="l-header__navbar__item"
